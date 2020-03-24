@@ -14,23 +14,33 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * 线程池配置类
+ * @author mrliz
+ */
 @Configuration
 @EnableAsync
 public class TreadPoolConfig {
-    private static final int corePoolSize = 10;       		// 核心线程数（默认线程数）
-    private static final int maxPoolSize = 200;			    // 最大线程数
-    private static final int keepAliveTime = 10;			// 允许线程空闲时间（单位：默认为秒）
-    private static final int queueCapacity = 200;			// 缓冲队列数
-    private static final String threadNamePrefix1 = "Async-Service1-"; // 线程池名前缀
-    private static final String threadNamePrefix2 = "Async-Service2-"; // 线程池名前缀
 
-    @Bean("scanBussinessFile") // 默认为首字母小写的方法名
+
+    @Bean("scanBussinessFile")
     public ThreadPoolTaskExecutor scanBussinessFile(){
+
         ThreadPoolTaskExecutor executor =new ThreadPoolTaskExecutor();
+
+        // 核心线程数（默认线程数）
         executor.setCorePoolSize(20);
+
+        // 最大线程数
         executor.setMaxPoolSize(30);
+
+        // 缓冲队列数
         executor.setQueueCapacity(100);
+
+        // 允许线程空闲时间（单位：默认为秒）
         executor.setKeepAliveSeconds(10);
+
+        // 线程池名前缀
         executor.setThreadNamePrefix("scanBussinessFile-");
 
         // 线程池对拒绝任务的处理策略
@@ -40,7 +50,7 @@ public class TreadPoolConfig {
         return executor;
     }
 
-    @Bean("uploadBlockFile") // bean的名称，默认为首字母小写的方法名
+    @Bean("uploadBlockFile")
     public ThreadPoolTaskExecutor uploadBlockFile(){
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
         executor.setCorePoolSize(20);
