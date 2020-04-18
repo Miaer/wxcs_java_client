@@ -13,6 +13,7 @@ import java.util.List;
 public class FTPDecode extends MessageToMessageDecoder<DatagramPacket> {
     @Override
     protected void decode(ChannelHandlerContext ctx, DatagramPacket msg, List<Object> out) throws Exception {
-
+        System.out.println("decode");
     }
+
 }
