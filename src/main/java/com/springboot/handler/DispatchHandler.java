@@ -1,13 +1,13 @@
 package com.springboot.handler;
 
 
-import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
 
 /**
  * @author mrliz
  */
-public class DispatchHandler extends ChannelHandlerAdapter {
+public class DispatchHandler extends ChannelInboundHandlerAdapter {
 
     /**
      * 在连接被建立并且准备进行通信时被调用
