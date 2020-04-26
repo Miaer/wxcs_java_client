@@ -15,5 +15,4 @@ public class FTPDecode extends MessageToMessageDecoder<DatagramPacket> {
     protected void decode(ChannelHandlerContext ctx, DatagramPacket msg, List<Object> out) throws Exception {
         System.out.println("decode");
     }
-
 }

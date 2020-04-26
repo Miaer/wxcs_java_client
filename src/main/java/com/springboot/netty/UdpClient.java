@@ -56,13 +56,16 @@ public class UdpClient implements ApplicationRunner {
                  future.channel().closeFuture().sync();
              } catch (InterruptedException e) {
                  e.printStackTrace();
+                 log.error("Netty Interrupted Error:" + e.getMessage());
              }
          }
          catch (Exception ex) {
              ex.printStackTrace();
+             log.error("Netty Error:" + ex.getMessage());
          }
          finally {
              group.shutdownGracefully();
+             log.info("------------------------Netty Close，port is ：" + port);
          }
      }
 

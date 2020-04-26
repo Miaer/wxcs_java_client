@@ -3,10 +3,12 @@ package com.springboot.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import org.springframework.stereotype.Component;
 
 /**
  * @author mrliz
  */
+@Component
 public class DispatchHandler extends ChannelInboundHandlerAdapter {
 
     /**
