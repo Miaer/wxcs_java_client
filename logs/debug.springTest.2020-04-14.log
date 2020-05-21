@@ -1,0 +1,28 @@
+2020-04-14 19:25:46,399 [restartedMain] INFO  com.springboot.SpringbootApplication 50 - Starting SpringbootApplication on DESKTOP-VMLTPMJ with PID 9576 (D:\git_project\wxcs_java_client\target\classes started by mrliz in D:\git_project\wxcs_java_client)
+2020-04-14 19:25:46,404 [restartedMain] INFO  com.springboot.SpringbootApplication 675 - No active profile set, falling back to default profiles: default
+2020-04-14 19:25:47,860 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8888"]
+2020-04-14 19:25:47,867 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-14 19:25:47,867 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-14 19:25:47,873 [restartedMain] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\mrliz\AppData\Local\Microsoft\WindowsApps;;D:\JetBrains\IntelliJ IDEA 2019.3.4\bin;;.]
+2020-04-14 19:25:47,943 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-14 19:25:47,999 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 554 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'udpClient': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'netty.port' in value "${netty.port}"
+2020-04-14 19:25:48,001 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-04-14 19:38:16,806 [restartedMain] INFO  com.springboot.SpringbootApplication 50 - Starting SpringbootApplication on DESKTOP-VMLTPMJ with PID 3340 (D:\git_project\wxcs_java_client\target\classes started by mrliz in D:\git_project\wxcs_java_client)
+2020-04-14 19:38:16,810 [restartedMain] INFO  com.springboot.SpringbootApplication 675 - No active profile set, falling back to default profiles: default
+2020-04-14 19:38:18,121 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8888"]
+2020-04-14 19:38:18,127 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-14 19:38:18,127 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-14 19:38:18,132 [restartedMain] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [G:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\mrliz\AppData\Local\Microsoft\WindowsApps;;D:\JetBrains\IntelliJ IDEA 2019.3.4\bin;;.]
+2020-04-14 19:38:18,200 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-14 19:38:18,625 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 108 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-14 19:38:18,628 [restartedMain] WARN  o.t.templatemode.TemplateMode 150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-14 19:38:18,847 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8888"]
+2020-04-14 19:38:18,856 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read
+2020-04-14 19:38:18,872 [restartedMain] INFO  com.springboot.SpringbootApplication 59 - Started SpringbootApplication in 2.385 seconds (JVM running for 3.601)
+2020-04-14 19:38:18,873 [restartedMain] INFO  com.springboot.netty.UdpClient 26 - 12345
+2020-04-14 19:38:20,875 [restartedMain] INFO  com.springboot.netty.UdpClient 26 - 12345
+2020-04-14 19:38:22,875 [restartedMain] INFO  com.springboot.netty.UdpClient 26 - 12345
+2020-04-14 19:38:24,876 [restartedMain] INFO  com.springboot.netty.UdpClient 26 - 12345
+2020-04-14 19:38:26,876 [restartedMain] INFO  com.springboot.netty.UdpClient 26 - 12345
+2020-04-14 19:38:28,877 [restartedMain] INFO  com.springboot.netty.UdpClient 26 - 12345
+2020-04-14 19:38:30,878 [restartedMain] INFO  com.springboot.netty.UdpClient 26 - 12345

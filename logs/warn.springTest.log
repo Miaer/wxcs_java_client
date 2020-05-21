@@ -1,0 +1,10 @@
+2020-04-26 16:16:08,044 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 108 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-26 16:16:08,065 [restartedMain] WARN  o.t.templatemode.TemplateMode 150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-26 16:18:00,562 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 108 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-26 16:18:00,566 [restartedMain] WARN  o.t.templatemode.TemplateMode 150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-26 16:24:48,361 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 108 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-26 16:24:48,365 [restartedMain] WARN  o.t.templatemode.TemplateMode 150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-26 16:29:30,597 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 108 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-26 16:29:30,600 [restartedMain] WARN  o.t.templatemode.TemplateMode 150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-04-26 16:37:09,025 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 108 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-26 16:37:09,026 [restartedMain] WARN  o.t.templatemode.TemplateMode 150 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
